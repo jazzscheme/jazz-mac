@@ -49,7 +49,7 @@
   '())
 
 (define jazz:kernel-properties
-  '(binaries?: #t source-access?: #f single-objects?: #t))
+  '(binaries?: #t single-objects?: #t source-access?: #f jazzini-access?: #t))
 
 (define jazz:kernel-version
   208033)
