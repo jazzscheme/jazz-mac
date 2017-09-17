@@ -113,7 +113,7 @@
                                         jazz.history
                                         jazz.ide
                                         jazz.inspector
-                                        ;;;; jazz.integrity ; obsolete
+                                        jazz.integrity ; obsolete but still used by jazz.ide
                                         jazz.io
                                         jazz.jas
                                         jazz.jml
