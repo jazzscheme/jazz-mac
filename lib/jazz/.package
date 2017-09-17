@@ -59,7 +59,7 @@
                                         jazz.core
                                         jazz.crash
                                         ;;;; jazz.daemon ; obsolete
-                                        ;;;; jazz.database ; obsolete
+                                        jazz.database ; a bit obsolete but still used by jazz.ide
                                         ;;;; jazz.database.ado ; obsolete
                                         ;;;; jazz.database.sqlserver ; obsolete
                                         jazz.debuggee
