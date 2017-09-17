@@ -237,6 +237,7 @@
                                        jazz.view.desc
                                        jazz.window.desc
                                        jazz.workspace.desc))
+            (extras (dependencies jazz.io.protocol))
             (samples (dependencies jazz.sample
                                    jazz.sample.c4
                                    jazz.sample.fib
@@ -249,5 +250,6 @@
                                    jazz.opengl.samples))
             (all (dependencies preinstalled
                                descriptors
+                               extras
                                samples)))
   (project ".project"))
