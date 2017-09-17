@@ -25,7 +25,9 @@
                                         contrib.fmt
                                         contrib.irregex
                                         contrib.match
-                                        contrib.sqlite
+                                        (cond
+                                          ((or mac windows)
+                                           contrib.sqlite))
                                         contrib.statprof
                                         contrib.termite
                                         contrib.webserver
@@ -203,7 +205,7 @@
                                    jazz.sample.mandelbrot
                                    jazz.sample.paradigms
                                    jazz.sample.world
-                                   jazz.opengl.sample))
+                                   jazz.opengl.samples))
             (all (dependencies preinstalled
                                samples)))
   (project ".project"))
